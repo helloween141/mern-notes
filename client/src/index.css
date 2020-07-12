@@ -1,0 +1,56 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+body {
+  background: #fbfbfb;
+}
+
+.form-btn {
+  margin-bottom: 15px;
+}
+
+.loader {
+  position: absolute;
+  margin: auto;
+  top: 50vh;
+  bottom: 50vh;
+  left: 0;
+  right: 0;
+}
+
+.v-align-middle {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column; 
+  align-items: center;
+}
+
+.login-form, .register-form {
+  width: 50%;
+}
+
+.delete-btn {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+.note-t-group-enter {
+  opacity: 0;
+}
+.note-t-group-enter-active {
+  opacity: 1;
+  transition: opacity 200ms;
+}
+.note-t-group-exit {
+  opacity: 1;
+}
+.note-t-group-exit-active {
+  opacity: 0;
+  transition: opacity 200ms;
+}
