@@ -24,7 +24,7 @@
     "express-validator": "^6.6.0",
     "jsonwebtoken": "^8.5.1",
     "materialize-css": "^1.0.0-rc.2",
-    "moment": "^2.27.0",
+    "moment": "^2.29.4",
     "mongoose": "^5.9.20",
     "nodemon": "^2.0.4",
     "react-transition-group": "^4.4.1"
